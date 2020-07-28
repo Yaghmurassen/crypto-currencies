@@ -49,7 +49,7 @@ const App = () => {
               xmlns="http://www.w3.org/2000/svg"
               className="btc-svg"
             >
-              <g id="btc-work" clip-path="url(#clip0)">
+              <g id="btc-work" clipPath="url(#clip0)">
                 <g id="btc">
                   <path
                     id="Vector"
@@ -444,13 +444,9 @@ const App = () => {
                   y2="112.55"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stop-color="#808080" stop-opacity="0.25" />
-                  <stop
-                    offset="0.54"
-                    stop-color="#808080"
-                    stop-opacity="0.12"
-                  />
-                  <stop offset="1" stop-color="#808080" stop-opacity="0.1" />
+                  <stop stopColor="#808080" stopOpacity="0.25" />
+                  <stop offset="0.54" stopColor="#808080" stopOpacity="0.12" />
+                  <stop offset="1" stopColor="#808080" stopOpacity="0.1" />
                 </linearGradient>
                 <linearGradient
                   id="paint1_linear"
@@ -460,13 +456,9 @@ const App = () => {
                   y2="14971.6"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stop-color="#808080" stop-opacity="0.25" />
-                  <stop
-                    offset="0.54"
-                    stop-color="#808080"
-                    stop-opacity="0.12"
-                  />
-                  <stop offset="1" stop-color="#808080" stop-opacity="0.1" />
+                  <stop stopColor="#808080" stopOpacity="0.25" />
+                  <stop offset="0.54" stopColor="#808080" stopOpacity="0.12" />
+                  <stop offset="1" stopColor="#808080" stopOpacity="0.1" />
                 </linearGradient>
                 <linearGradient
                   id="paint2_linear"
@@ -476,13 +468,9 @@ const App = () => {
                   y2="4477.64"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stop-color="#808080" stop-opacity="0.25" />
-                  <stop
-                    offset="0.54"
-                    stop-color="#808080"
-                    stop-opacity="0.12"
-                  />
-                  <stop offset="1" stop-color="#808080" stop-opacity="0.1" />
+                  <stop stopColor="#808080" stopOpacity="0.25" />
+                  <stop offset="0.54" stopColor="#808080" stopOpacity="0.12" />
+                  <stop offset="1" stopColor="#808080" stopOpacity="0.1" />
                 </linearGradient>
                 <linearGradient
                   id="paint3_linear"
@@ -492,13 +480,9 @@ const App = () => {
                   y2="6511.63"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stop-color="#808080" stop-opacity="0.25" />
-                  <stop
-                    offset="0.54"
-                    stop-color="#808080"
-                    stop-opacity="0.12"
-                  />
-                  <stop offset="1" stop-color="#808080" stop-opacity="0.1" />
+                  <stop stopColor="#808080" stopOpacity="0.25" />
+                  <stop offset="0.54" stopColor="#808080" stopOpacity="0.12" />
+                  <stop offset="1" stopColor="#808080" stopOpacity="0.1" />
                 </linearGradient>
                 <clipPath id="clip0">
                   <rect width="682" height="729.04" fill="white" />
