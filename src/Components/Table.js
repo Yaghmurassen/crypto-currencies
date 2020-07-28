@@ -118,11 +118,17 @@ const renderCurrencyList = (cryptoCurrenciesAmount, changeValues) => {
                     <p>{currenciesName}</p>
                   </CurrenciesImg>
                   <ProgressContainer>
-                    <Progress
-                      value={percentage}
-                      className={`percentage-currency--${currency}`}
-                    />
-                    <p>{percentage} %</p>
+                    {percentage !== NaN ? (
+                      <>
+                        <Progress
+                          value={percentage}
+                          className={`percentage-currency--${currency}`}
+                        />
+                        <p>{percentage} %</p>
+                      </>
+                    ) : (
+                      loader
+                    )}
                   </ProgressContainer>
                   <p>
                     {cryptoCurrenciesAmount[currency]} {currency}
@@ -267,8 +273,8 @@ const Tables = () => {
                 ref={(el) => (chartReference = el)}
                 data={crypto}
                 options={options}
-                height="500"
-                width="300"
+                height={500}
+                width={300}
               />
             </Fade>
           )}
