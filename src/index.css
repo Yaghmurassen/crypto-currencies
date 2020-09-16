@@ -382,3 +382,7 @@ div[class*="img-currency--"] {
     filter: blur(0px);
   }
 }
+
+.react-reveal {
+  margin-bottom: 2vh;
+}
