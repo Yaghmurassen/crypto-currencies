@@ -18,6 +18,9 @@ import ethSvg from "./Assets/Pictures/eth-volant.svg";
 
 import "./App.css";
 
+const colorLight = "#6480e3";
+const colorDark = "#0ee6fd";
+
 const App = () => {
   const [theme, setTheme] = useState("light");
   const themeToggler = () => {
@@ -32,7 +35,9 @@ const App = () => {
           <Application>
             <Header>
               <Bannier logo={theme === "light" ? logoLight : logoDark}>
-                <Title>Crypto Currencies</Title>
+                <Title color={theme === "light" ? colorLight : colorDark}>
+                  Crypto Currencies
+                </Title>
               </Bannier>
             </Header>
             <div className="wrapper">

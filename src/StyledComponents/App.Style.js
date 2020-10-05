@@ -3,8 +3,9 @@ import styled from "styled-components";
 const Title = styled.h1`
   font-size: 60px;
   font-weight: bold;
-  color: #6480e3;
+  color: ${(props) => props.color};
   text-shadow: 1px 6px 6px #000000;
+  transition: all 0.5s linear;
   @media screen and (max-width: 374px) {
     font-size: 30px;
   }
