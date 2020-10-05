@@ -11,6 +11,8 @@ import {
 import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "./StyledComponents/Global.Style";
 import { lightTheme, darkTheme } from "./StyledComponents/Themes.style";
+import logoLight from "./Assets/Pictures/cryptocurrency_logo.jpg";
+import logoDark from "./Assets/Pictures/cryptocurrency.jpg";
 
 import ethSvg from "./Assets/Pictures/eth-volant.svg";
 
@@ -21,6 +23,7 @@ const App = () => {
   const themeToggler = () => {
     theme === "light" ? setTheme("dark") : setTheme("light");
   };
+
   return (
     <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
       <>
@@ -28,7 +31,7 @@ const App = () => {
         <Fade>
           <Application>
             <Header>
-              <Bannier>
+              <Bannier logo={theme === "light" ? logoLight : logoDark}>
                 <Title>Crypto Currencies</Title>
               </Bannier>
             </Header>

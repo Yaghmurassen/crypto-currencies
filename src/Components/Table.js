@@ -166,7 +166,7 @@ const Tables = () => {
   let chartReference = useRef(null);
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    // window.scrollTo(0, 0);
     const _fetchCrypto = () => {
       try {
         const data = cleanCrypto();

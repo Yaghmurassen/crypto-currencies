@@ -1,3 +1,6 @@
+import logoLight from "../Assets/Pictures/cryptocurrency.jpg";
+import logoDark from "../Assets/Pictures/cryptocurrency.jpg";
+
 const lightTheme = {
   body: "#FFF",
   text: "#363537",

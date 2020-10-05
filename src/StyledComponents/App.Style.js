@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import logo from "../Assets/Pictures/cryptocurrency_logo.jpg";
 
 const Title = styled.h1`
   font-size: 60px;
@@ -21,13 +20,14 @@ const Title = styled.h1`
 `;
 
 const Bannier = styled.div`
-  background-image: url(${logo});
+  background-image: ${(props) => `url(${props.logo})`};
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.5s linear;
   filter: drop-shadow(0px 5px 0px #6480e3);
 `;
 
